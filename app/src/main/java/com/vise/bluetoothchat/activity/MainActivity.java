@@ -187,6 +187,7 @@ public class MainActivity extends BaseChatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            ToastUtil.showToast(this,"no camera");
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
